@@ -1,0 +1,263 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading-main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-content {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reorganize p {
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.reorganize ul li {
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    list-style-position: outside !important;
+    margin-left: 1em;
+
+}
+
+.reorganize ul {
+    padding-left: 12px;
+}
+
+.reorganize img {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.abc {
+    position: relative;
+    top: 200px;
+    transition: 0.6s
+}
+
+/* //mobile css Starts */
+@media only screen and (max-width: 600px) {}
+
+/* //Mobile Css Ends
+
+//Desktop css starts */
+@media only screen and (min-width: 600px) {
+    .reorganize {
+        border-right: 1px solid #ccc;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+
+
+}
+
+
+
+
+.asap {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.h31 {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    margin-bottom: -5px !important;
+    margin-top: 15px !important;
+}
+
+.livecities a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.asap {
+    margin: 10px 0 10px;
+}
+
+.advertise {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: left !important;
+}
+
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: #fff !important;
+}
+
+.bottom-wrapper {
+    width: 100%;
+    padding-top: 115px;
+    z-index: 5;
+    overflow: auto;
+}
+
+.reachh {
+    position: fixed;
+    left: -188px;
+    top: 47%;
+    transition: 1.3s;
+}
+
+.reachh:hover {
+    left: 0px !important;
+}
+
+.navbar-default {
+    height: 120px !important;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-right {
+    margin-top: 13px !important;
+
+}
+
+.navbar-right li a {
+    font-size: 18px !important;
+    font-family: 'Quicksand', sans-serif !important;
+    color: black !important;
+}
+
+.navbar {
+    padding: 0px !important;
+    margin: 0px !important;
+    border-right: none !important;
+    border-left: none !important;
+
+}
+
+nav {
+    position: relative !important;
+    z-index: 9999 !important;
+}
+
+.navbar-brand img {
+    width: 65%;
+}
+
+ul li ul.dropdown {
+    min-width: 100%;
+    /* Set width of the dropdown */
+    background: #fff;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    border: 1px solid #cccccc;
+
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    /* Display the dropdown */
+}
+
+ul li ul.dropdown li {
+    padding: 5px;
+    border-bottom: 1px solid #cccccc;
+    list-style: none;
+}
+
+ul li ul.dropdown li a {
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    ul li ul.dropdown {
+        min-width: 100%;
+        /* Set width of the dropdown */
+        background: #000;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 10;
+        border: none;
+
+    }
+
+    ul li:hover ul.dropdown {
+        display: block;
+        /* Display the dropdown */
+    }
+
+    ul li ul.dropdown li {
+        padding: 5px;
+        border-bottom: none;
+        list-style: none;
+    }
+
+    ul li ul.dropdown li a {
+        color: #fff;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+        position: absolute;
+
+    }
+
+    .navbar-default {
+        height: 70px !important;
+    }
+
+    .color {
+        background-color: black;
+    }
+
+    .navbar-right {
+        margin-top: 15px;
+    }
+
+    .navbar-right li a {
+        color: #fff !important;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+}
+
+.cnsignature {
+    position: relative;
+    top: 27px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
