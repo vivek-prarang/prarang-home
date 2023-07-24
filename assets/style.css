@@ -261,3 +261,140 @@ ul li ul.dropdown li a {
     margin-left: auto;
     text-align: right;
 }
+
+.header2 {
+    font-size: 20px;
+    height: 70px;
+    align-items: center;
+}
+
+.menu {
+
+    background-color: #e9ecef;
+}
+
+.lists {
+    height: 55px;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle-with-text {
+    background: linear-gradient(orange, red);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    color: #fff;
+}
+
+.back-red {
+    background: red;
+    color: white;
+}
+
+.back-blue {
+    background: blue;
+    color: white;
+}
+
+.back-green {
+    background: green;
+    color: white;
+}
+
+.back-yellow {
+    background: rgb(250, 250, 8);
+    color: black;
+}
+
+.back-grey {
+    background: grey;
+}
+
+.back-tile {
+    background: #b6f0f7;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.more-tile {
+    background: #09d1e7;
+    padding: 4px 15px;
+    border-radius: 2px;
+}
+
+.planner-box {
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 4px;
+    ;
+}
+
+.planner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Triangle */
+.up {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 114px 200px 114px;
+    border-color: transparent transparent #007bff transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.up p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid yellow;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+/* .multi-line-text {
+font-size: 20px;
+}
+ */
