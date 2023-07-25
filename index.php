@@ -28,11 +28,11 @@
         <div class="row header2">
             <div class="col-1">
             </div>
-            <div class="col-6   ">
-                <b>Prarang Knowledge Webs for Smarter Citizenships</b>
+            <div class="col-6">
+                <b><span id="logo-title">Prarang</span> : Knowledge Webs for Smarter Citizenships</b>
             </div>
             <div class="col-3">
-                <img src="logo1.png" width="200px">
+                <img src="assets/img/prarang-logo.png" width="200px">
             </div>
             <div class="col-1">
             </div>
