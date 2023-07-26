@@ -1,50 +1,3 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.heading-main {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.page-content {
-
-    font-family: 'Open Sans', sans-serif;
-}
-
-.reorganize p {
-    font-size: 16px;
-    text-align: justify;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-.reorganize ul li {
-    font-size: 16px;
-    text-align: justify;
-    font-family: 'Quicksand', sans-serif;
-    list-style-position: outside !important;
-    margin-left: 1em;
-
-}
-
-.reorganize ul {
-    padding-left: 12px;
-}
-
-.reorganize img {
-
-
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.abc {
-    position: relative;
-    top: 200px;
-    transition: 0.6s
-}
-
 /* //mobile css Starts */
 @media only screen and (max-width: 600px) {}
 
@@ -277,61 +230,6 @@ ul li ul.dropdown li a {
     height: 55px;
 }
 
-.circles {
-    display: flex;
-}
-
-.circle-with-text {
-    background: linear-gradient(orange, red);
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    text-align: center;
-    margin: 5px 20px;
-    font-size: 15px;
-    padding: 15px;
-    display: flex;
-    height: 180px;
-    width: 180px;
-    color: #fff;
-}
-
-.back-red {
-    background: red;
-    color: white;
-}
-
-.back-blue {
-    background: blue;
-    color: white;
-}
-
-.back-green {
-    background: green;
-    color: white;
-}
-
-.back-yellow {
-    background: rgb(250, 250, 8);
-    color: black;
-}
-
-.back-grey {
-    background: grey;
-}
-
-.back-tile {
-    background: #b6f0f7;
-    padding: 3px;
-    border-radius: 8px;
-}
-
-.more-tile {
-    background: #09d1e7;
-    padding: 4px 15px;
-    border-radius: 2px;
-}
-
 .planner-box {
     position: relative;
     height: 230px;
@@ -387,12 +285,7 @@ ul li ul.dropdown li a {
     border-bottom: 150px solid yellow;
 }
 
-.circle {
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border-radius: 50%;
-}
+
 
 /* .multi-line-text {
 font-size: 20px;
@@ -403,10 +296,25 @@ font-size: 20px;
 
 /* Logo title */
 #logo-title {
-    font-size: 36px;
+    font-size: 38px;
     font-family: 'Adamina', serif;
     font-weight: 700;
 }
+
+/* Bold Tag */
+.sub-logo-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Paragraph */
+.sub-logo-title {
+    position: relative;
+    top: 1px;
+    margin-bottom: 0px;
+}
+
+
 
 /* Column 6/12 */
 .text-center .col-6 {
@@ -451,8 +359,8 @@ font-size: 20px;
 }
 
 /* Image */
-.row img {
-    width: 170px;
+.row .prarang-logo {
+    width: 115px;
     display: inline-block;
     transform: translatex(0px) translatey(0px) !important;
     height: 81px;
@@ -462,3 +370,525 @@ font-size: 20px;
 .text-center .row {
     height: 90px;
 }
+
+
+/* List */
+#navbarSupportedContent ul {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Link */
+.navbar-nav .nav-item a {
+    font-weight: 600;
+}
+
+.heading-bar {
+    background-color: #B6F0F7;
+    margin: 10px 0px 10px 0px;
+    padding: 12px;
+}
+
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Adamina:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Column 8/12 */
+.container .heading-bar .text-center {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-family: 'Adamina', serif;
+
+}
+
+/* List */
+#navbarSupportedContent ul {
+    background-color: #e4d2d2;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+
+/* Swiper */
+@media (min-width: 37.5em) {
+    body {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+/* ==========================================================================
+     Swiper modifications
+   ========================================================================== */
+
+.swiper-container {
+    margin-top: 2em;
+    /* minor cosmetic */
+}
+
+.swiper-wrapper {
+    /* now pagination is below slides */
+    margin-bottom: 3em;
+
+    /* just enough width so slides handing off screen are partially visible */
+    width: 73.8%;
+}
+
+@media (min-width: 37.5em) {
+    .swiper-wrapper {
+        /* now arrows appear */
+        /* make room for arrows */
+        width: 92%;
+    }
+}
+
+@media (min-width: 43.75em) {
+    .swiper-wrapper {
+        /* make room for arrows */
+        width: 95%;
+    }
+}
+
+
+/* doubleing up specificity to win over on transform */
+.swiper-slide.swiper-slide {
+    /* a single column layout */
+    width: 100%;
+}
+
+
+@media (min-width: 37.5em) {
+    .swiper-slide.swiper-slide {
+        /* going for a 2 column layout here */
+        width: 50%;
+
+        /* centeredSlides set to true */
+        /* reposition so first slide appears on left */
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 43.75em) {
+    .swiper-slide.swiper-slide {
+        /* upping it to a 3 column layout */
+        width: 33.33333333333%;
+
+        /* centeredSlides set to true */
+        /* reposition so first slide appears on left */
+        transform: translateX(-100%);
+    }
+}
+
+@media (min-width: 53em) {
+    .swiper-slide.swiper-slide {
+        /* and finally the 4 column layout */
+        width: 25%;
+
+        /* centeredSlides set to true */
+        /* reposition so first slide appears on left */
+        transform: translateX(-150%);
+    }
+}
+
+.swiper-pagination {
+    /* show on small viewports */
+    display: block;
+}
+
+@media (min-width: 37.5em) {
+    .swiper-pagination {
+        /* hide on larger viewports per stakeholder recommendation */
+        display: none;
+    }
+}
+
+/* now move prev button more to the left */
+.swiper-button-prev {
+    /* but first hide on small viewports */
+    display: none;
+
+    left: 0;
+    top: 0;
+
+    margin-top: 0;
+
+    /* subtract .swiper-wrapper bottom-margin to vertically center arrow */
+    height: calc(100% - 3em);
+
+    /* css trickery to hide the way left image */
+    background-color: #fff;
+}
+
+@media (min-width: 37.5em) {
+    .swiper-button-prev {
+        /* show on larger viewports */
+        display: block;
+    }
+}
+
+.swiper-button-next {
+    /* hide on small viewports */
+    display: none;
+
+    right: 0;
+    top: 0;
+
+    margin-top: 0;
+
+    /* subtract .swiper-wrapper bottom-margin to vertically center arrow */
+    height: calc(100% - 3em);
+
+    /* css trickery to hide the way right image */
+    background-color: #fff;
+}
+
+@media (min-width: 37.5em) {
+    .swiper-button-next {
+        /* show on larger viewports */
+        display: block;
+    }
+}
+
+/* ==========================================================================
+     content in swiper
+   ========================================================================== */
+
+.product {
+    /* odds are you will use flexbox */
+    // display: flex;
+
+    /* center it */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* adjust the width to add or remove whitespace  */
+    width: 82%;
+}
+
+.photograph {
+    /* if parent is flex it will stretch this image */
+    // align-self: center;
+    display: block;
+
+    height: auto;
+    width: 100%;
+}
+
+.product__name.product__name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: calc(.5em + 5vw);
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 37.5em) {
+    .product__name.product__name {
+        font-size: .92em;
+    }
+}
+
+.product__description {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: calc(.3em + 5vw);
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+}
+
+@media (min-width: 37.5em) {
+    .product__description {
+        font-size: .92em;
+    }
+}
+
+
+
+
+/* circle */
+.circle {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.make-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.small-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 3px;
+}
+
+.circle-c {
+    display: flex;
+    flex-direction: row;
+}
+
+/* tringal */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+
+    margin: 5px;
+}
+
+.trbg-green {
+    border-bottom: 16px solid green;
+}
+
+.trbg-blue {
+    border-bottom: 16px solid blue;
+}
+
+.trbg-yellow {
+    border-bottom: 16px solid rgb(189, 189, 7);
+}
+
+.trbg-red {
+    border-bottom: 16px solid red;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-squ {
+    width: 14px;
+    height: 14px;
+    /* border-radius: 50%; */
+    background-color: black;
+    margin: 3px;
+}
+
+.sqr {
+    margin-left: 52px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-yellow {
+    background-color: rgb(189, 189, 7);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+/* Span Tag */
+.container .text-end span {
+    color: #ffffff;
+    background-color: #a5a5a5;
+    background-size: cover;
+    background-repeat: repeat-x;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+/* Span Tag */
+.container .text-end span {
+    position: relative;
+    top: 6px;
+    left: -4px;
+}
+
+#contentDiv {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.threelinks {
+    display: flex;
+    justify-content: center;
+    /* Center align the links horizontally */
+    align-items: center;
+    /* Center align the links vertically */
+}
+
+.threelinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Add some margin between the links */
+/* Link */
+.container a {
+    font-weight: 600;
+    color: #020202;
+    margin-right: 39px;
+    margin-left: 27px;
+    font-size: 17px;
+}
+
+/* footer */
+#style-efr49.style-efr49 {
+    padding-top: 20px;
+    border-top: 1px solid white;
+    background-color: #333333;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#style-F9GIA.style-F9GIA {
+    color: #fff;
+    font-size: 12px !important;
+}
+
+#style-ntKhn.style-ntKhn {
+    font-size: 12px !important;
+}
+
+/* Style */
+#style-ntKhn {
+    padding-bottom: 19px;
+}
+
+/* Column 10/12 */
+.container .heading-bar .text-center {
+    color: #003f7f;
+}
+
+/* Swiper container horizontal */
+.container .swiper-container-horizontal {
+    height: 109px;
+    margin-top: 10px;
+}
+
+/* Swiper button prev */
+.container .swiper-button-prev {
+    top: 23px;
+}
+
+/* Swiper button prev */
+.container .swiper-container-horizontal .swiper-button-prev {
+    bottom: auto !important;
+}
+
+/* Swiper button next */
+.container .swiper-button-next {
+    top: 24px;
+}
+
+/* Swiper button next */
+.container .swiper-container-horizontal .swiper-button-next {
+    bottom: auto !important;
+}
+
+@media (max-width:600px) {
+
+    /* Swiper pagination clickable */
+    .container .swiper-pagination-clickable {
+        top: 94px;
+        margin-bottom: 23px;
+        z-index: 1000;
+        min-height: 28px;
+    }
+
+    /* Product */
+    .swiper-wrapper .swiper-slide-active .product {
+        height: 100px;
+    }
+
+    /* Container */
+    .container {
+        min-height: 249px;
+        transform: translatex(0px) translatey(0px);
+    }
+
+    /* Swiper pagination clickable */
+    .container .swiper-container-horizontal .swiper-pagination-clickable {
+        bottom: auto !important;
+    }
+
+}
+
+/* Italic Tag */
+.container .heading-bar i {
+    font-size: 15px;
+}
+
+@media (max-width:938.993px) {
+
+    /* Circle */
+    .container .sqr .circle {
+        width: 160px;
+    }
+
+    /* Circle */
+    .swiper-wrapper .product .circle {
+        width: 150px;
+        height: 107px;
+    }
+
+}
+
+/* Span Tag */
+.text-center .sub-logo-title span {
+    font-size: 12px;
+}
+
+/* for title  */
+/* Span Tag */
+.text-center .sub-logo-title span {
+    position: relative;
+    left: 48px;
+}
+
+/* logo left mar */
+/* Logo title */
+#logo-title {
+    margin-left: 75px;
+}
+
+/* Image */
+#logo-title img {
+    height: 79px;
+}
+
+.ads-web {
+    border: 2px solid black;
+    min-height: 100px;
+    padding-top: 41px !important;
+}
+
+
+
+/* big balls */
