@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prarang</title>
+    <title>Prarang: Work</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,19 +14,19 @@
 
 <body>
     <!-- header -->
-    <div class="header1 text-center ">
+    <div class="header1 text-center d-none d-sm-none d-md-none d-lg-block">
         <div class="row header2">
-            <div class="col-3 text-start">
-                <b><span id="logo-title">Prarang <img class="prarang-logo" src="assets/img/prarang-logo.png"
-                            width="200px"></span> </b>
+            <div class="col-4 text-start">
+                <a href="/"><b><span id="logo-titles"><img class="imgx" src="assets/img/logo-title.png" alt="Prarang">
+                            <img class="prarang-logo" src="assets/img/prarang-logo.png" width="200px"></span>
+                    </b></a>
+
             </div>
-            <div class="col-sm-6 text-center">
+            <div class="col-sm-5 text-center">
                 <img src="https://www.prarang.in/img/cnsignature.png" alt="">
             </div>
 
-            <!-- <div class="col-5">
-                <p class="sub-logo-title"> for Smarter Citizenships</p>
-            </div> -->
+
             <div class="col-sm-3 text-start">
                 <p class="sub-logo-title">Knowledge Webs <br>
                     <span>for</span> <br>Smarter
@@ -35,8 +35,17 @@
             </div>
         </div>
     </div>
-
     <!-- NavBar -->
+    <header class="d-block d-sm-block d-md-block d-lg-none">
+
+        <div class="text-left" id="logo-titlex"><a href="/"><img class="imgx" src="assets/img/logo-title.png"
+                    alt="Prarang"><img class="img-i" src="assets/img/prarang-logo.png" alt=""></a>
+
+        </div>
+        <p class="text-left ps-2 pt-1"><b>Knowledge Webs for Smarter Citizenship</b>
+        </p>
+
+    </header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,20 +57,41 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0"
                     style="display: flex; justify-content: space-between; width: 100%;">
                     <li class="nav-item nab-menu">
-                        <a class="nav-link active" aria-current="page" href="#">Languages</a>
+                        <a class="nav-link active" aria-current="page" href="/languages.php">Languages</a>
                     </li>
                     <li class="nav-item nab-menu">
-                        <a class="nav-link active" aria-current="page" href="#">Cities</a>
+                        <a class="nav-link active" aria-current="page" href="/cities.php">Cities</a>
                     </li>
-                    <li class="nav-item nab-menu">
+                    <!-- <li class="nav-item nab-menu">
                         <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li> -->
+                    <li class="nav-item dropdown nab-menu ">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://planner.prarang.in/india-development-planner">India Development
+                                    Planner</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://planner.prarang.in/india-market-planner/states">India Market
+                                    Planner</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://planner.prarang.in/india-advertising-planner/states">India Advertising
+                                    Planner</a>
+                            </li>
+
+
+                        </ul>
                     </li>
                     <li class="nav-item nab-menu">
                         <a class="nav-link active" aria-current="page" href="#">Knowledge
                         </a>
                     </li>
                     <li class="nav-item nab-menu">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link active" aria-current="page" href="/about.php">About Us</a>
                     </li>
                     <li class="nav-item nab-menu">
                         <a class="nav-link active" aria-current="page" href="#">Blogs</a>
@@ -74,15 +104,15 @@
     <section class="container">
         <div class="heading-bar">
             <div class="row">
-                <div class="col-10 text-center">Content: <i>Glocal For Hyperlocal</i>
+                <div class="col-sm-10 text-center">Content: <i>Glocal For Hyperlocal</i>
                 </div>
-                <div class="col-2 text-end"> <span>More +</span></div>
+                <div class="col-sm-2 text-end"> <span> <a href=""> More +</a></span></div>
             </div>
         </div>
         <div class="threelinks ">
-            <a href="#">Daily Posts</a>
-            <a href="#">City Portals</a>
-            <a href="#">Yellow Pages</a>
+            <a id="three-links" href="#">Daily Posts</a>
+            <a id="three-links" href="#">City Portals</a>
+            <a id="three-links" href="#">Yellow Pages</a>
         </div>
         <!-- slider main container -->
         <div class="swiper-container">
@@ -94,21 +124,28 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Lucknow Subscriber</div>
-                            <div class="paragraph">10,000+</div>
+                            <a href="https://www.facebook.com/prarang.in">
+                                <div class="title">Lucknow Subscribers</div>
+                            </a>
+                            <div class="paragraph">7,500+</div>
+
                             <div class="circle-c">
                                 <div class="small-circle bg-green"></div>
                                 <div class="small-circle bg-green"></div>
                                 <div class="small-circle bg-green"></div>
                             </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Lucknow Daily Post</div>
-                            <div class="paragraph">2,000+</div>
+                            <a href="/lucknow/">
+                                <div class="title">Lucknow Daily Post</div>
+                            </a>
+
+                            <div class="paragraph">2,070+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-green"></div>
                                 <div class="small-circle bg-green"></div>
@@ -121,8 +158,11 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Jaunpur Subscriber</div>
-                            <div class="paragraph">12889+</div>
+                            <a href="https://www.facebook.com/prarang.in">
+                                <div class="title">Jaunpur Subscribers</div>
+                            </a>
+
+                            <div class="paragraph">8,000+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-blue"></div>
                                 <div class="small-circle bg-blue"></div>
@@ -135,8 +175,11 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Jaunpur Daily Post</div>
-                            <div class="paragraph">2,889+</div>
+                            <a href="/jaunpur/">
+                                <div class="title">Jaunpur Daily Post</div>
+                            </a>
+
+                            <div class="paragraph">2,080+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-blue"></div>
                                 <div class="small-circle bg-blue"></div>
@@ -148,7 +191,7 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Kanpur Subscriber</div>
+                            <div class="title">Kanpur Subscribers</div>
                             <div class="paragraph">0</div>
                             <div class="circle-c">
                                 <div class="small-circle"></div>
@@ -161,8 +204,11 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Meerut Subscriber</div>
-                            <div class="paragraph">12889+</div>
+                            <a href="https://www.facebook.com/prarang.in">
+                                <div class="title">Meerut Subscribers</div>
+                            </a>
+
+                            <div class="paragraph">9,500+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-yellow"></div>
                                 <div class="small-circle bg-yellow"></div>
@@ -174,8 +220,10 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Meerut Post</div>
-                            <div class="paragraph">12889</div>
+                            <a href="/meerut/">
+                                <div class="title">Meerut Post</div>
+                            </a>
+                            <div class="paragraph">2,070+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-yellow"></div>
                                 <div class="small-circle bg-yellow"></div>
@@ -187,8 +235,11 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Rampur Subscriber</div>
-                            <div class="paragraph">12889+</div>
+                            <a href="https://www.facebook.com/prarang.in">
+                                <div class="title">Rampur Subscribers</div>
+                            </a>
+
+                            <div class="paragraph">8,000+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-red"></div>
                                 <div class="small-circle bg-red"></div>
@@ -200,8 +251,10 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Rampur Daily Post</div>
-                            <div class="paragraph">1289</div>
+                            <a href="/rampur/">
+                                <div class="title">Rampur Daily Post</div>
+                            </a>
+                            <div class="paragraph">2,090+</div>
                             <div class="circle-c">
                                 <div class="small-circle bg-red"></div>
                                 <div class="small-circle bg-red"></div>
@@ -213,7 +266,7 @@
                 <div class="swiper-slide">
                     <div class="product">
                         <div class="circle">
-                            <div class="title">Kanpur Subscriber</div>
+                            <div class="title">Kanpur Subscribers</div>
                             <div class="paragraph">0</div>
                             <div class="circle-c">
                                 <div class="small-circle"></div>
@@ -239,63 +292,71 @@
     <section class="container">
         <div class="heading-bar">
             <div class="row">
-                <div class="col-10 text-center">Analytics: <i> Geographic Intelligence</i>
+                <div class="col-sm-10 text-center">Analytics: <i> Geographic Intelligence</i>
 
                 </div>
-                <div class="col-2 text-end"> <span>More +</span></div>
+                <div class="col-sm-2 text-end"> <span> <a href=""> More +</a></span></div>
             </div>
         </div>
         <div class="sqr">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">Globalisation</div>
-                        <div class="title">Planner</div>
-                        <div class="paragraph"></div>
-                        <div class="flex-row">
-                            <div class=" small-squ bg-green"></div>
-                            <div class=" small-squ bg-green"></div>
-                            <div class=" small-squ bg-green"></div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="">
+                        <div class="circle">
+                            <div class="title">Globalisation</div>
+                            <div class="title">Planner</div>
+                            <div class="paragraph"></div>
+                            <div class="flex-row">
+                                <div class=" small-squ bg-green"></div>
+                                <div class=" small-squ bg-green"></div>
+                                <div class=" small-squ bg-green"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">India Development </div>
-                        <div class="title">Planner </div>
-                        <!-- <div class="paragraph"></div> -->
-                        <div class="flex-row">
-                            <div class=" small-squ bg-blue"></div>
-                            <div class=" small-squ bg-blue"></div>
-                            <div class=" small-squ bg-blue"></div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="https://planner.prarang.in/india-market-planner/states">
+                        <div class="circle">
+                            <div class="title">India Development </div>
+                            <div class="title">Planner </div>
+                            <!-- <div class="paragraph"></div> -->
+                            <div class="flex-row">
+                                <div class=" small-squ bg-blue"></div>
+                                <div class=" small-squ bg-blue"></div>
+                                <div class=" small-squ bg-blue"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">India Market
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="https://planner.prarang.in/india-market-planner/states">
+                        <div class="circle">
+                            <div class="title">India Market
+                            </div>
+                            <div class="title">Planner
+                            </div>
+                            <!-- <div class="paragraph">12889</div> -->
+                            <div class="flex-row">
+                                <div class=" small-squ bg-yellow"></div>
+                                <div class=" small-squ bg-yellow"></div>
+                                <div class=" small-squ bg-yellow"></div>
+                            </div>
                         </div>
-                        <div class="title">Planner
-                        </div>
-                        <!-- <div class="paragraph">12889</div> -->
-                        <div class="flex-row">
-                            <div class=" small-squ bg-yellow"></div>
-                            <div class=" small-squ bg-yellow"></div>
-                            <div class=" small-squ bg-yellow"></div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">India Ad </div>
-                        <div class="title">Planner</div>
-                        <!-- <div class="paragraph">12889</div> -->
-                        <div class="flex-row">
-                            <div class=" small-squ bg-red"></div>
-                            <div class=" small-squ bg-red"></div>
-                            <div class=" small-squ bg-red"></div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="https://planner.prarang.in/india-market-planner/states">
+                        <div class="circle">
+                            <div class="title">India Ad </div>
+                            <div class="title">Planner</div>
+                            <!-- <div class="paragraph">12889</div> -->
+                            <div class="flex-row">
+                                <div class=" small-squ bg-red"></div>
+                                <div class=" small-squ bg-red"></div>
+                                <div class=" small-squ bg-red"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -303,139 +364,313 @@
     <section class="container">
         <div class="heading-bar">
             <div class="row">
-                <div class="col-10 text-center">Art: <i>Connecting Geographies</i>
+                <div class="col-sm-10 text-center">Art: <i>Connecting Geographies</i>
                 </div>
-                <div class="col-2 text-end"> <span>More +</span></div>
+                <div class="col-sm-2 text-end"> <span> <a href=""> More +</a></span></div>
             </div>
         </div>
         <div class="sqr">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">Museum</div>
-                        <div class="paragraph">India Knowledge</div>
-                        <!-- <div class="paragraph">12889</div> -->
-                        <div class="flex-row">
-                            <div class="triangle trbg-blue"></div>
-                            <div class="triangle trbg-blue"></div>
-                            <div class="triangle trbg-blue"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">Exhibitions
-                        </div>
-                        <div class="paragraph"> City
-                            - Object
-                            -Event</div>
-                        <div class="flex-row">
-                            <div class="triangle trbg-yellow"></div>
-                            <div class="triangle trbg-yellow"></div>
-                            <div class="triangle trbg-yellow"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">Books
-                        </div>
-                        <div class="paragraph"> - Articles
-                            - E-books</div>
-                        <div class="flex-row">
-                            <div class="triangle trbg-red"></div>
-                            <div class="triangle trbg-red"></div>
-                            <div class="triangle trbg-red"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="circle">
-                        <div class="title">Digital Art
-                        </div>
-                        <div class="paragraph"> GEO N.F.T.s</div>
-                        <div class="flex-row">
-                            <div class="triangle trbg-green"></div>
-                            <div class="triangle trbg-green"></div>
-                            <div class="triangle trbg-green"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="heading-bar">
-            <div class="row">
-                <div class="col-10 text-center">City Partnerships: <i> Semiotic Web</i>
-
-                </div>
-                <div class="col-2 text-end"> <span>More +</span></div>
-            </div>
-        </div>
-        <div class="sqr" style="margin-right:38px;">
-            <div class="ads-web p-2 rounded">
-                <div class="row">
-                    <div class="col-sm"></div>
-                    <div class="col-sm"></div>
-                    <div class="col-sm"></div>
-                    <div class="col-sm text-center">
-                        <div class="make-center">
-                            <div class="circle-c">
-                                <div class="small-circle bg-green"></div>
-                                <div class="small-circle bg-blue"></div>
-                                <div class="small-circle bg-yellow"></div>
-                                <div class="small-circle bg-red"></div>
-                            </div>
-                            <div class="paragraph">Content</div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm text-center"><i class="fa fa-plus"></i></div>
-                    <div class="col-sm text-center">
-                        <div class="make-center">
-                            <div class="circle-c">
-                                <div class="small-squ bg-green"></div>
-                                <div class="small-squ bg-blue"></div>
-                                <div class="small-squ bg-yellow"></div>
-                                <div class="small-squ bg-red"></div>
-                            </div>
-                            <div class="paragraph">Analytics</div>
-                        </div>
-                    </div>
-                    <div class="col-sm text-center"><i class="fa fa-plus"></i></div>
-                    <div class="col-sm text-center">
-                        <div class="make-center">
-                            <div class="circle-c">
-                                <div class="triangle trbg-green"></div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="">
+                        <div class="circle">
+                            <div class="title">Museum</div>
+                            <div class="paragraph">India Knowledge</div>
+                            <!-- <div class="paragraph">12889</div> -->
+                            <div class="flex-row">
                                 <div class="triangle trbg-blue"></div>
+                                <div class="triangle trbg-blue"></div>
+                                <div class="triangle trbg-blue"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="">
+                        <div class="circle">
+                            <div class="title">Exhibitions
+                            </div>
+                            <div class="paragraph"> City
+                                - Object
+                                -Event</div>
+                            <div class="flex-row">
                                 <div class="triangle trbg-yellow"></div>
+                                <div class="triangle trbg-yellow"></div>
+                                <div class="triangle trbg-yellow"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="">
+                        <div class="circle">
+                            <div class="title">Books
+                            </div>
+                            <div class="paragraph"> - Articles
+                                - E-books</div>
+                            <div class="flex-row">
+                                <div class="triangle trbg-red"></div>
+                                <div class="triangle trbg-red"></div>
                                 <div class="triangle trbg-red"></div>
                             </div>
-                            <div class="paragraph">Art</div>
                         </div>
-                    </div>
-                    <div class="col-sm"></div>
-                    <div class="col-sm"></div>
-                    <div class="col-sm"></div>
+                    </a>
 
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <a href="">
+                        <div class="circle">
+                            <div class="title">Digital Art
+                            </div>
+                            <div class="paragraph"> GEO N.F.T.s</div>
+                            <div class="flex-row">
+                                <div class="triangle trbg-green"></div>
+                                <div class="triangle trbg-green"></div>
+                                <div class="triangle trbg-green"></div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="container">
+        <div class="heading-bar">
+            <div class="row">
+                <div class="col-sm-10 text-center">City Partnerships: <i> Semiotic Web</i>
+
+                </div>
+                <div class="col-sm-2 text-end"> <span> <a href=""> More +</a></span></div>
+            </div>
+        </div>
+        <a href="">
+            <div class="sqr" style="margin-right:38px;">
+                <div class="ads-web p-2 rounded">
+                    <div class="row">
+                        <div class="col-sm"></div>
+                        <div class="col-sm"></div>
+                        <div class="col-sm"></div>
+                        <div class="col-sm text-center">
+                            <div class="make-center">
+                                <div class="circle-c">
+                                    <div class="small-circle bg-green"></div>
+                                    <div class="small-circle bg-blue"></div>
+                                    <div class="small-circle bg-yellow"></div>
+                                    <div class="small-circle bg-red"></div>
+                                </div>
+                                <div class="paragraph">Content</div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm text-center"><i class="fa fa-plus"></i></div>
+                        <div class="col-sm text-center">
+                            <div class="make-center">
+                                <div class="circle-c">
+                                    <div class="small-squ bg-green"></div>
+                                    <div class="small-squ bg-blue"></div>
+                                    <div class="small-squ bg-yellow"></div>
+                                    <div class="small-squ bg-red"></div>
+                                </div>
+                                <div class="paragraph">Analytics</div>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center"><i class="fa fa-plus"></i></div>
+                        <div class="col-sm text-center">
+                            <div class="make-center">
+                                <div class="circle-c">
+                                    <div class="triangle trbg-green"></div>
+                                    <div class="triangle trbg-blue"></div>
+                                    <div class="triangle trbg-yellow"></div>
+                                    <div class="triangle trbg-red"></div>
+                                </div>
+                                <div class="paragraph">Art</div>
+                            </div>
+                        </div>
+                        <div class="col-sm"></div>
+                        <div class="col-sm"></div>
+                        <div class="col-sm"></div>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </section>
+    <br><br>
     <section class="footer">
-        <div class="container-fluid snipcss-NAaUC style-efr49" id="style-efr49">
-            <div class="col-md-12 style-F9GIA" id="style-F9GIA">
-                <p id="style-ntKhn" class="style-ntKhn ps-2 pe-2">
-                    Copyright © 2017-2023. All content on this website, such as text, graphics, logos, button
-                    icons,
-                    software, images
-                    and its selection, arrangement, presentation &amp; overall design, is the property of Indoeuropeans
-                    India Pvt. Ltd. and protected by international copyright laws.
-                </p>
+        <div class="container-fluid footer-font snipcss-pDVZE style-5iXfi" id="style-5iXfi">
+            <div class="col-md-4">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+                <div id="mc_embed_signup">
+                    <!-- action="https://prarang.us12.list-manage.com/subscribe/post?u=4434d712c520c496f4499859b&amp;id=ba392ab2dd" -->
+                    <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                        class="validate" target="_blank" novalidate="novalidate">
+                        <div id="mc_embed_signup_scroll">
+                            <h2 id="style-HKXSD" class="style-HKXSD">
+                                Subscribe to our mailing list
+                            </h2>
+                            <div class="indicates-required">
+                                <span class="asterisk">
+                                </span>
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL" id="style-pcDYz" class="style-pcDYz">
+                                    Email Address
+                                    <span class="asterisk">
+                                    </span>
+                                </label>
+                                <input type="email" value="" placeholder="Enter your email...." name="EMAIL"
+                                    class="required email style-9FGJd" id="mce-EMAIL" aria-required="true">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response style-ytjlo" id="mce-error-response">
+                                </div>
+                                <div class="response style-MsoXD" id="mce-success-response">
+                                </div>
+                            </div>
+                            <div aria-hidden="true" id="style-6FP7D" class="style-6FP7D">
+                                <input type="text" name="b_4434d712c520c496f4499859b_ba392ab2dd" tabindex="-1" value="">
+                            </div>
+                            <div class="clear">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                    class="button style-J5iDO">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
             </div>
         </div>
 
+        <div class="container-fluid snipcss0-0-0-1 snipcss-5fAU4 style-VVnjU" id="style-VVnjU">
+            <div class="container snipcss0-1-1-2 style-PW4AR" id="style-PW4AR">
+                <div class="footer-design snipcss0-2-2-3 row">
+                    <div class="col-md-3 col-xs-6 footer-text-color snipcss0-3-3-4">
+                        <h4 class="snipcss0-4-4-5">
+                            City Portals
+                        </h4>
+                        <p class="snipcss0-4-4-6">
+                            <a href="rampur/" class="snipcss0-5-6-7">
+                                Rampur
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-4-8">
+                            <a href="meerut/" class="snipcss0-5-8-9">
+                                Meerut
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-4-10">
+                            <a href="lucknow/" class="snipcss0-5-10-11">
+                                Lucknow
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-4-12">
+                            <a href="jaunpur/" class="snipcss0-5-12-13">
+                                Jaunpur
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 footer-text-color snipcss0-3-3-14">
+                        <h4 class="snipcss0-4-14-15">
+                            Languages
+                        </h4>
+                        <p class="snipcss0-4-14-16">
+                            <a href="languages.php" class="snipcss0-5-16-17">
+                                Hindi
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-14-18">
+                            <a href="languages.php" class="snipcss0-5-18-19">
+                                Bengali
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-14-20">
+                            <a href="languages.php" class="snipcss0-5-20-21">
+                                Marathi
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-14-22">
+                            <a href="languages.php" class="snipcss0-5-22-23">
+                                Telegu
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-14-24">
+                            <a href="languages.php" class="snipcss0-5-24-25">
+                                <u class="snipcss0-6-25-26">
+                                    See More
+                                </u>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 footer-text-color snipcss0-3-3-27">
+                        <h4 class="snipcss0-4-27-28">
+                            Quick Links
+                        </h4>
+                        <p class="snipcss0-4-27-29">
+                            <a href="about.php" class="snipcss0-5-29-30">
+                                About Us
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-27-31">
+                            <a href="cities.php" class="snipcss0-5-31-32">
+                                Cities
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-27-33">
+                            <a href="privacy.php" class="snipcss0-5-33-34">
+                                Privacy Policy
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-27-35">
+                            <a href="t-and-c.php" class="snipcss0-5-35-36">
+                                Terms &amp; Conditions
+                            </a>
+                        </p>
+                        <p class="snipcss0-4-27-37">
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 footer-text-color snipcss0-3-3-39">
+                        <h4 class="snipcss0-4-39-40">
+                            Connect -
+                        </h4>
+                        <p class="snipcss0-4-39-41">
+                            Follow Us On
+                        </p>
+                        <a href="https://www.facebook.com/prarang.in/" class="snipcss0-4-39-42">
+                            <img src="https://prarang.in/fb.png" class="snipcss0-5-42-43">
+                        </a>
+                        <a href="https://www.instagram.com/prarang_in/?hl=en" class="snipcss0-4-39-44">
+                            <img src="https://prarang.in/insta.png" class="snipcss0-5-44-45">
+                        </a>
+                        <a href="https://twitter.com/prarang_in?lang=en" class="snipcss0-4-39-46">
+                            <img src="https://prarang.in/twitter.png" class="snipcss0-5-46-47">
+                        </a>
+                        <p class="abcde snipcss0-4-39-48">
+                            <a href="https://play.google.com/store/apps/details?id=com.riversanskiriti.prarang&amp;hl=en_IN"
+                                class="snipcss0-5-48-49">
+                                <img src="https://prarang.in/gplay.png" class="img-responsive snipcss0-6-49-50">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid snipcss0-1-1-51 style-El2si" id="style-El2si">
+                <div class="col-md-12 snipcss0-2-51-52 style-Pg6AY" id="style-Pg6AY">
+                    <p class="snipcss0-3-52-53 style-EkoPZ" id="style-EkoPZ">
+                        Copyright © 2017-2023 All content on this website, such as text, graphics, logos, button icons,
+                        software,
+                        images and its selection, arrangement, presentation &amp; overall design, is the property of
+                        Indoeuropeans India Pvt. Ltd. and protected by international copyright laws.
+                    </p>
+                </div>
+            </div>
+            <p id="demo" class="snipcss0-1-1-54">
+            </p>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
@@ -466,14 +701,7 @@
                 // navigation arrows
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
-
-
-
-
             });
-
-
-
         })();
 
         // togal 
@@ -506,8 +734,9 @@
             return districtNames[randomIndex];
         }
         function displayRandomDistrict() {
-            const districtDiv = document.getElementById("districtHeadquarters");
-            districtDiv.innerHTML = getRandomDistrict();
+            // const districtDiv = document.getElementById("districtHeadquarters");
+            console.log(getRandomDistrict());
+            // districtDiv.innerHTML = getRandomDistrict();
         }
         displayRandomDistrict();
         setInterval(displayRandomDistrict, 1000);
