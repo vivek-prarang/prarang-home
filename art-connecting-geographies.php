@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prarang: Work</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="home-assets/more-data.css">
     <link rel="stylesheet" href="home-assets/style.css">
+    <style>
+        /* Paragraph */
+        .snipcss-sRWxP section p {
+            font-size: 17px;
+            color: #020202 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,8 +24,7 @@
     <div class="header1 text-center d-none d-sm-none d-md-none d-lg-block">
         <div class="row header2">
             <div class="col-4 text-start">
-                <a href="https://prarang.in/"><b><span id="logo-titles"><img class="imgx"
-                                src="home-assets/img/logo-title.png" alt="Prarang">
+                <a href="https://prarang.in/"><b><span id="logo-titles"><img class="imgx" src="home-assets/img/logo-title.png" alt="Prarang">
                             <img class="prarang-logo" src="home-assets/img/prarang-logo.png" width="200px"></span>
                     </b></a>
 
@@ -39,9 +45,7 @@
     <!-- NavBar -->
     <header class="d-block d-sm-block d-md-block d-lg-none">
 
-        <div class="text-left" id="logo-titlex"><a href="https://prarang.in/"><img class="imgx"
-                    src="home-assets/img/logo-title.png" alt="Prarang"><img class="img-i"
-                    src="home-assets/img/prarang-logo.png" alt=""></a>
+        <div class="text-left" id="logo-titlex"><a href="https://prarang.in/"><img class="imgx" src="home-assets/img/logo-title.png" alt="Prarang"><img class="img-i" src="home-assets/img/prarang-logo.png" alt=""></a>
 
         </div>
         <p class="text-left ps-2 pt-1"><b>Knowledge Webs for Smarter Citizenship</b>
@@ -50,17 +54,13 @@
     </header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0"
-                    style="display: flex; justify-content: space-between; width: 100%;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex; justify-content: space-between; width: 100%;">
                     <li class="nav-item nab-menu">
-                        <a class="nav-link active" aria-current="page"
-                            href="https://prarang.in/languages.php">Languages</a>
+                        <a class="nav-link active" aria-current="page" href="https://prarang.in/languages.php">Languages</a>
                     </li>
                     <li class="nav-item nab-menu">
                         <a class="nav-link active" aria-current="page" href="https://prarang.in/cities.php">Cities</a>
@@ -69,20 +69,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Products</a>
                     </li> -->
                     <li class="nav-item dropdown nab-menu ">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Products
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
-                                    href="https://planner.prarang.in/india-development-planner">India Development
+                            <li><a class="dropdown-item" href="https://planner.prarang.in/india-development-planner">India Development
                                     Planner</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://planner.prarang.in/india-market-planner/states">India Market
+                            <li><a class="dropdown-item" href="https://planner.prarang.in/india-market-planner/states">India Market
                                     Planner</a>
                             </li>
-                            <li><a class="dropdown-item"
-                                    href="https://planner.prarang.in/india-advertising-planner/states">India Advertising
+                            <li><a class="dropdown-item" href="https://planner.prarang.in/india-advertising-planner/states">India Advertising
                                     Planner</a>
                             </li>
 
@@ -104,71 +100,24 @@
         </div>
     </nav>
     <br>
-
-    <section class="container">
-        <div class="heading-bar">
-            <div class="row">
-                <div class="col-sm-12 text-center"> Cancellations & Refund Policy:</i>
-                </div>
-
+    <!-- home code -->
+    <div class="container snipcss-sRWxP">
+        <section>
+            <div class="text-center h1 p-2 m-1  main-title">
+                Art : Connecting Geographies
             </div>
-        </div>
-        <br>
-        <p>
-            Thank you for choosing our website as your source for development, advertising and market-related data of
-            all districts in the country. We strive to provide you with accurate and valuable information. However, we
-            understand that situations may arise where you might need to cancel your purchase or request a refund.
-            Please carefully review our cancellation and refund policy outlined below:
-        <h3>1.Cancellation Policy:</h3>
+            <br>
+            <p class="">Art has the power to bring transformational change to the Cities/Districts we create Content & Analytic solutions for. Many connections unite the different geographies of India, within & beyond the political & cartographic boundaries of today. Religious circuits ( Char Dham, Buddhist circuit, Pancha Bhoota Sthanagal Shiva temples, Jyotirlingas, Jain temple circuit, Sufi shrine circuit etc), Masonic english city urban plans, French, Portuguese, Dutch & Danish forts, Mughal tombs/ Persian gardens, Tiger sanctuaries, Tourism circuits ( Golden Triangle, Himalayan treks etc), Colonial Hill Stations, Port towns & Beach resorts, Princely State Palaces/Forts etc.</p>
+            <br>
+            <p>Our Prarang project founders who have seed-funded the venture, have also provided free access to us of their private collections which today form a rare aggregation of 200,000+ objects ( mostly books, prints ( lithographs, maps, photographs, picture postcards, stamps, posters etc) & coins, fossils etc). This collection is used by us for our daily research & digital image needs in content creation for cities/districts. While the founders themselves have been contributing (with their collections) to various Art projects individually, we now extend & offer the opportunity to partner with us on showcasing some of these objects/ collections to specific City/District communities -</p>
+            <p>(a) Museum of Knowledge : Saraswati by the Ganga - Our founders have commenced work on a two acre land, near the Ganga ( 90 mts drive from New Delhi), to showcase collections of some of the earliest books & images ever printed in India, as well as the first books & images about India, printed in Europe.</p>
+            <p>(b) Exhibitions, Presentations, Talks - We have lent objects & contributed to several exhibitions/talks including - Hundred years of World War I ( 1914-2014) , New Delhi ; Maps of India ; The Partition Museum; Prints of India ; Bombay outside Mumbai - Khaki, Mumbai ; Indo-Czech postal connections; Sanskrit in Europe, Bhartiya Vidya Bhavan ; Vishnu in Myanmar, IGNCA, Bhubaneshwar
+            </p>
+            <p>(c) Books/ Articles/ e-Books - Picturesque India - Picture Postcard of India 1896 to 1947, Niyogi book publishers ; Travel in Textiles - Uttar Pradesh, Eicher Publications ; Trees of India - MS Randhawa ; I'm your Man - Leonard Cohen - by Sylvie Simmons ; Several articles in Newspapers/ e-Zines ; India Visual - Blog</p>
+            <p> (d) Digital Art - City/District N.F.T.s - This is work in progress. We are working on the production & release of Digital Art NFTs specifically for the Cities of Jaunpur, Rampur, Meerut & Lucknow, on the basis of our big archive of copyrighted Daily City Post content work.</p>
+        </section>
+    </div>
 
-        <h5>1.1 Cancellation of Subscriptions:</h5>
-
-        For subscription-based services, customers can cancel their subscription at any time during the subscription
-        period.
-        To cancel a subscription, customers must log in to their account on our website and navigate to the
-        "Subscriptions" section.
-        Upon cancellation, the customer will continue to have access to the purchased data until the end of the
-        current billing cycle. No further charges will be made after the cancellation.
-        <br><br>
-        <h5>1.2 Cancellation of One-time Purchases:</h5>
-        Customers who have made one-time purchases of district-specific data can request a cancellation within 24
-        hours of the purchase.
-        To request a cancellation, customers must contact our customer support team at query@prarang.in.
-        Refunds for one-time purchases will be subject to the conditions outlined in the "Refund Policy" below.
-        <br><br>
-        <h3>2. Refund Policy:</h3>
-        <h5>2.1 Refunds for Subscriptions:</h5>
-        For subscription-based services, customers who cancel their subscription will not be eligible for a refund
-        for the current billing cycle. However, they will continue to have access to the purchased data until the
-        end of the billing cycle.
-        In the event of technical issues or service interruptions that significantly impact the usability of the
-        subscription service, customers may be eligible for a pro-rated refund. Such refund requests will be
-        reviewed on a case-by-case basis. <br><br>
-        <h5> 2.2 Refunds for One-time Purchases:</h5>
-        Customers who cancel a one-time purchase within 24 hours of the initial transaction are eligible for a full
-        refund.
-        Refund requests for one-time purchases made after the 24-hour window will not be entertained. <br><br>
-        <h5>2.3 Non-Refundable Products or Services:</h5>
-
-        Some products or services may be marked as non-refundable on our website, and as such, they are not eligible
-        for a refund under any circumstances. These items will be clearly indicated during the purchase process.
-        <br><br>
-        <h3>3. Processing Refunds:</h3>
-        <h5>3.1 Refund Processing Time:</h5>
-        Once a refund request is approved, we will process the refund within seven days of the approval date.
-        The refund amount will be credited to the original payment method used during the purchase.
-        Contacting Customer Support:
-        If you have any questions, concerns, or wish to request a cancellation or refund, please don't hesitate to
-        contact our customer support team at <a class="text-primary"
-            href="mailto:query@prarang.in">query@prarang.in</a>. We are available to
-        assist you
-        during our regular
-        business hours.
-        Please note that this cancellation and refund policy may be subject to updates or changes. Any modifications
-        to the policy will be communicated on our website, and the revised policy will apply to all purchases made
-        after the date of the update.
-        </p>
-    </section>
     <br><br>
     <section class="footer">
         <div class="container-fluid footer-font snipcss-pDVZE style-5iXfi" id="style-5iXfi">
@@ -179,8 +128,7 @@
 
                 <div id="mc_embed_signup">
                     <!-- action="https://prarang.us12.list-manage.com/subscribe/post?u=4434d712c520c496f4499859b&amp;id=ba392ab2dd" -->
-                    <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                        class="validate" target="_blank" novalidate="novalidate">
+                    <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
                         <div id="mc_embed_signup_scroll">
                             <h2 id="style-HKXSD" class="style-HKXSD">
                                 Subscribe to our mailing list
@@ -195,8 +143,7 @@
                                     <span class="asterisk">
                                     </span>
                                 </label>
-                                <input type="email" value="" placeholder="Enter your email...." name="EMAIL"
-                                    class="required email style-9FGJd" id="mce-EMAIL" aria-required="true">
+                                <input type="email" value="" placeholder="Enter your email...." name="EMAIL" class="required email style-9FGJd" id="mce-EMAIL" aria-required="true">
                             </div>
                             <div id="mce-responses" class="clear">
                                 <div class="response style-ytjlo" id="mce-error-response">
@@ -208,8 +155,7 @@
                                 <input type="text" name="b_4434d712c520c496f4499859b_ba392ab2dd" tabindex="-1" value="">
                             </div>
                             <div class="clear">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                    class="button style-J5iDO">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button style-J5iDO">
                             </div>
                         </div>
                     </form>
@@ -308,7 +254,6 @@
                                 Cancellations and Refund
                             </a>
                         </p>
-                        refund-cancellations
                         <p class="snipcss0-4-27-37">
                         </p>
                     </div>
@@ -329,8 +274,7 @@
                             <img src="https://prarang.in/twitter.png" class="snipcss0-5-46-47">
                         </a>
                         <p class="abcde snipcss0-4-39-48">
-                            <a href="https://play.google.com/store/apps/details?id=com.riversanskiriti.prarang&amp;hl=en_IN"
-                                class="snipcss0-5-48-49">
+                            <a href="https://play.google.com/store/apps/details?id=com.riversanskiriti.prarang&amp;hl=en_IN" class="snipcss0-5-48-49">
                                 <img src="https://prarang.in/gplay.png" class="img-responsive snipcss0-6-49-50">
                             </a>
                         </p>
@@ -352,7 +296,7 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
-    <script src="home-assets/main.js"></script>
+    <script src="home-home-assets/main.js"></script>
 
 </body>
 
